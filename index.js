@@ -10,5 +10,6 @@ let automobilesCopy = `${automobiles}`;
 automobiles.pop();
 automobiles.shift();
 
-documents.getElementById('result').InnerHTML = automobiles;
+document.getElementById('result').innerHTML = automobiles;
+
 
